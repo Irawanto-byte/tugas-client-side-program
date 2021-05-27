@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Layout Dasar Dokumen Web</title>
+<style type="text/css">
+body {
+width: 700px;
+}
+
+header, nav, aside, section, footer {
+background: blue;
+border: 1px solid black;
+color: white;
+font-size: 2em;
+font-variant: small-caps;
+text-align: center;
+}
+header, nav, footer {
+width: 50%;
+}
+header{
+height: 100px;
+}
+footer {
+height: 200px;
+}
+nav {
+height: 50px;
+}
+
+section#content {
+overflow:scroll;
+float:left;
+height: 250px;
+width: 50%;
+}
+footer {
+overflow:scroll;
+clear: both;
+}
+#judulUtama{
+color:green;
+}
+#pesan{
+color:red;
+}
+#judulkedua{
+color:black;
+}
+</style>
+</head>
+<body>
+<h1 id="judulUtama"> Belajar CSS</h1>
+<p id="pesan"><marquee>Mohon segera di selesaikan!!!!</marquee></p>
+<header><pre>Header
+Cascading Style Sheets(CSS)</pre></header>
+<nav>Background</nav>
+<section id="content">isi
+<pre>background-image
+background-position
+background-clip
+background-color
+background-attachment
+background-repeat
+background-origin</pre>
+</section>
+<footer>Background-position
+<pre>top left
+top center
+top right
+center right
+bottom left
+</footer>
+<div>
+<h2 id="judulkedua"><marquee> Selamat Mengerjakan....</marquee></h2>
+<p><marquee><strong>Terimakasih.......!!!!</strong></marquee></p>
+</body>
+</html>
